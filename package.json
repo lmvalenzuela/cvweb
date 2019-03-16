@@ -10,7 +10,6 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "register-service-worker": "^1.6.2",
-    "timeline-vuejs": "^1.0.3",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
