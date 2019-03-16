@@ -1,0 +1,44 @@
+body {
+    background-color:#888;
+}
+.nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    width: 90vw;
+    margin: 0 auto;
+}
+.navLink{
+    width:5vw;
+}
+.home {
+    display:flex;
+    width: 90vw;
+    margin: 0 auto;
+    flex-direction:row;
+}
+.right-bar{
+    display:flex;
+    flex-direction:column;
+    width:20vw;
+}
+.title-container{
+    display:flex;
+    flex-direction:column;
+    background-color:#E6E7E8;
+    height:20vw;
+}
+.contact-container{
+    background-color: $gris-oscuro;
+
+}
+.home-content{
+    flex-grow: 1;
+    background-color:$blanco;
+}
+
+//Aux classes
+.right{
+    display:block;
+    text-align: right;
+}

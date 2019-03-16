@@ -1,0 +1,49 @@
+.perfil {
+    display: flex;
+    flex-direction: row;
+    margin-top:7vh;
+}
+
+.titulo-perfil {
+    flex-grow: 1;
+
+}
+
+.imagen-perfil {
+    width: 3vw;
+    margin: 20px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 30px;
+    color: $gris-oscuro;
+    border-bottom: 2px solid $azul;
+    margin-right:5vw;
+}
+h1:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid $gris-oscuro;
+    margin-bottom: -2px;
+    max-width: 75px;
+}
+
+p {
+    display: block;
+    margin: 0.5vh 5vw;
+    text-align: justify;
+    font-family: 'Lato';
+    font-weight:400;
+    font-size:18px;
+    color:$gris-claro;
+    line-height: 1.5em;
+}
+//Timeline
+
