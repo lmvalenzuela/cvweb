@@ -44,12 +44,14 @@ export default {
 
 <style lang="scss" scoped>
 .timeline-item {
+
   .item {
     border-left: 5px solid #ccd5db;
     padding: 20px 0 20px 15px;
     position: relative;
   }
   .month-item {
+    display:none;
     margin: 0;
     text-transform: uppercase;
     font-size: 16px;
@@ -58,11 +60,17 @@ export default {
   .title-item {
     margin: 0;
     padding: 5px 0;
-    font-size: 15px;
+    font-family:'Raleway';
+    font-size: 2.5vw;
     font-weight: 500;
+    color:$gris-claro;
   }
   .description-item {
-    font-weight: 100;
+    text-align: justify;
+    font-family:"Lato";
+    font-weight: 400;
+    font-size:1.75vw;
+    color:$gris-claro;
     margin: 0;
   }
   .dot {

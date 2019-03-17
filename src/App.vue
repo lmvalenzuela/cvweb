@@ -2,10 +2,13 @@
   <div id="app">
     <div id="nav" class="nav">
       <div class="navLink">
-        <router-link to="/">Home</router-link>
+        <router-link to="/">Español</router-link>
       </div>
       <div class="navLink">
-        <router-link to="/about">About</router-link>
+        <router-link to="/english">English</router-link>
+      </div>
+      <div class="navLink">
+        <a href="./cv_lmva.pdf" target="_blank">PDF</a>
       </div>
     </div>
     <router-view />
@@ -15,3 +18,5 @@
 <style lang="scss">
 @import '@/scss/styles.scss';
 </style>
+
+

@@ -6,7 +6,7 @@
 h1 {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 28px;
+    font-size: 2vw;
     text-transform: uppercase;
     padding-top: 15px;
     padding-bottom: 0px;
@@ -16,7 +16,7 @@ h1 {
 h3 {
     font-family: 'Lato';
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.5vw;
     text-transform: capitalize;
 }
 
@@ -28,16 +28,18 @@ hr {
 
 p {
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 400;
 }
 
 .aptitude {
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.2vw;
 }
-
+ul{
+    padding-left:1.2vw;
+}
 .idiomas {
     display: block;
     text-align: justify;
@@ -48,7 +50,7 @@ a:hover,
 a:visited {
     font-family: 'Lato';
     font-weight: 400;
-    font-size:16px;
+    font-size:1.2vw;
     text-decoration: none;
     color: $blanco;
     cursor: pointer;
@@ -59,6 +61,6 @@ a:visited {
 }
 
 .grow:hover {
-    font-size:18px;
+    font-size:1.3vw;
     color:$azul;
 }

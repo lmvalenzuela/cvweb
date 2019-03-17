@@ -134,7 +134,7 @@ export default {
 .timeline {
 	text-align: left;
 	width: 100%;
-	max-width: 500px;
+	max-width: 65vw;
 	.wrapper-timeline {
 		position: relative;
 	}
@@ -149,7 +149,7 @@ export default {
 			align-items: flex-end;
 			padding: 15px;
 			font-weight: bold;
-			font-size: 20px;
+			font-size: 1.75vw;
 
 			.year {
 				margin: 0;

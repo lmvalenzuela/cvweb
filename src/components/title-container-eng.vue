@@ -1,7 +1,8 @@
+
 <template>
 <div class="title-container" id="title-container">
     <h1>LUIS MIGUEL<br/> VALENZUELA</h1>
-    <h2>Programador <br/>Web FullStack y DevOp</h2>
+    <h2>Programmer <br/>Web FullStack & DevOp</h2>
 </div>
 </template>
 

@@ -9,7 +9,27 @@ body {
     margin: 0 auto;
 }
 .navLink{
-    width:5vw;
+    width:12vw;
+    display:block;
+    border:1px solid $gris-claro;
+    background-color:$gris-oscuro;
+    text-align: center;
+    a, a:visited, a:hover {
+        text-decoration:none;
+        font-family:"Montserrat";
+        font-weight:700;
+
+
+    }
+    a, a:visited {
+        font-size: 2vw;
+        color:$blanco;
+        transition: ease 0.2s;
+    }
+    a:hover {
+        font-size:2.2vw;
+        color:$gris-claro;
+    }
 }
 .home {
     display:flex;
@@ -30,7 +50,7 @@ body {
 }
 .contact-container{
     background-color: $gris-oscuro;
-
+    flex-grow: 1;
 }
 .home-content{
     flex-grow: 1;
